@@ -19,8 +19,8 @@ namespace OurTestMVCApp
                 app.UseHsts();
             }
             // Some codes
-                           app.UseHttpsRedirection();
-                           app.UseStaticFiles();
+            app.UseHttpsRedirection();
+            app.UseStaticFiles();
 
             app.UseRouting();
 
